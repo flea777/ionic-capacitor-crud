@@ -1,0 +1,7 @@
+{
+  "name": "crud-exercicio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
