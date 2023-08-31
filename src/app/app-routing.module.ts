@@ -10,6 +10,14 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'editar-usuario',
+    loadChildren: () => import('./editar-usuario/editar-usuario.module').then( m => m.EditarUsuarioPageModule)
+  },
+  {
+    path: 'lista-de-usuarios',
+    loadChildren: () => import('./lista-de-usuarios/lista-de-usuarios.module').then( m => m.ListaDeUsuariosPageModule)
   }
 ];
 
